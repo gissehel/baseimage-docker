@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 MAINTAINER Gissehel <public-docker-phusion-baseimage@gissehel.org>
 
 ENV HOME /root
