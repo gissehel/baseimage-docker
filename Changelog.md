@@ -1,3 +1,7 @@
+## 0.9.9.1 (release date: )
+
+  * Create a Trusted Build for phusion's baseimage under name gissehel/phusion-baseimage
+
 ## 0.9.9 (release date: 2014-03-25)
 
  * Fixed a problem with rssh. (Slawomir Chodnicki)

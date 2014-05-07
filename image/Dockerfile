@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Phusion <info@phusion.nl>
+MAINTAINER Gissehel <public-docker-phusion-baseimage@gissehel.org>
 
 ENV HOME /root
 RUN mkdir /build
