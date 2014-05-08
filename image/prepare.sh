@@ -32,6 +32,10 @@ ln -sf /bin/true /usr/bin/ischroot
 ## Install HTTPS support for APT.
 $minimal_apt_get_install apt-transport-https
 
+## Temporary workaround for issue https://github.com/dotcloud/stackbrew/issues/52 (missing 40 packages in last ubuntu:12.04 image compared to previous ones)
+$minimal_apt_get_install apt-utils bzip2 console-setup debconf-i18n dmsetup eject iputils-ping isc-dhcp-client isc-dhcp-common kbd keyboard-configuration less libapt-inst1.4 libdevmapper1.02.1 libexpat1 liblocale-gettext-perl libnewt0.52 libpopt0 libsqlite3-0 libtext-charwidth-perl libtext-iconv-perl libtext-wrapi18n-perl lsb-release mime-support net-tools netbase netcat-openbsd ntpdate python python2.7 rsyslog sudo ucf ureadahead vim-common vim-tiny whiptail xkb-data
+## not working :  $minimal_apt_get_install resolvconf ubuntu-minimal
+
 ## Upgrade all packages.
 apt-get dist-upgrade -y --no-install-recommends
 
