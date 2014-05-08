@@ -1,5 +1,5 @@
 NAME = gissehel/phusion-baseimage
-VERSION = 0.9.9.1
+VERSION = 0.9.9.2
 
 .PHONY: all build test tag_latest release ssh
 
